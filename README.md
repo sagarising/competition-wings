@@ -1,2 +1,2 @@
-# the-career-competition-wings
+# competition-wings
 Website for the career competition wings
