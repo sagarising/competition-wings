@@ -1,2 +1,2 @@
-# competition-wings
-Website for the career competition wings
+# depknow
+Website for DepKnow

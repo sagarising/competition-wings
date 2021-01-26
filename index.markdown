@@ -1,0 +1,22 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+whatsapp_text: Hey there. I am inquiring about your courses.
+---
+
+**Our Courses**
+
+| SSC | Railway |
+| Bank | Police |
+| Air Force | NDA |
+| Navy | AFCAT | 
+
+---
+**Contact Us**
+
+|----------------+-------+---------|
+| Phone/WhatsApp | Email | Address |
+|----------------+-------+---------|
+| {{ site.phone }} [Call](tel:{{site.phone}}) [WhatsApp](https://wa.me/{{ site.phone | remove: "+" | remove: "-"}}?text={{page.whatsapp_text}}) | [{{ site.email }}](https://mail.google.com/mail/?view=cm&fs=1&to={{ site.email }}&su=Query for&body=Hello Team){:target="_blank"} | [{{site.address}}](https://goo.gl/maps/58uq5oh4APUK2BX88){:target="_blank"} |
